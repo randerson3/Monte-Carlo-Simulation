@@ -1,11 +1,11 @@
 # Monte-Carlo-Simulation
 GTF Monte Carlo Simulation
 
-Developed a Monte Carlo Simulation based on the Georgia Tech Foundation overall Portfolio values. 
-I plan on adding another simulation with a breakdown based on Asset Class.
+Developed an Overall Portfolio Monte Carlo Simulation based on the Georgia Tech Foundation CMA's. (100,000 simulations)
 
-Initial Values: 
-  Portfolio Annual Return: 4.8%
-  Portfolio Annual Return: 11.0%
- 
- The simulation was run with a monthly period, 120 month duration, and 100,000 simulations.
+Developed a Dynamic Asset-Class based Monte Carlo Simulation. (5,000 simulations)
+  Utilizes the beta for each asset-class. 
+  Takes into account the expected return and volitiity of each asset-classes alpha. (See the Asset Class Monte Carlo Inputs.csv file)
+
+Both simulations were run with a monthly period and 120 month duration.
+Input files and visualizations for the Monte Carlo Simulations are included in the repository.
